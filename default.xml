@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remotes -->
+  <remote name="yocto" fetch="https://git.yoctoproject.org/"/>
+  <remote name="gh"    fetch="https://github.com/"/>
+
+  <!-- default attributes -->
+  <default sync-j="8"/>
+
+  <!-- Repositories -->
+  <!--styhead Commits on May 25, 2025-->
+  <project name="poky"
+           path="poky"
+           remote="yocto"
+           revision="f57dc43765e76325b35e2b05390e41ea73ad810c"/>
+  <!--styhead Commits on Mar 12, 2025-->
+  <project name="meta-raspberrypi"
+           path="meta-raspberrypi"
+           remote="yocto"
+           revision="cd558f77b6b1a6d0fa15cd9558df0c0262d42c91"/>
+  <!--styhead Commits on Feb 25, 2025-->
+  <project name="openembedded/meta-openembedded"
+           path="meta-openembedded"
+           remote="gh"
+           revision="c93994f1bb601c57548b588d4f77a044d90822cf"/>
+  <project name="ubinux/meta-killer-gateway"
+           path="meta-killer-gateway"
+           remote="gh"
+           revision="9d274b01501b0c58d50e7a635f372a364892e0df"/>
+</manifest>
