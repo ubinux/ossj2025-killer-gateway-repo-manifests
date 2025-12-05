@@ -26,5 +26,5 @@
   <project name="ubinux/meta-killer-gateway"
            path="meta-killer-gateway"
            remote="gh"
-           revision="cc8f89f09fa4af21733a277853e81b7d1bde0b7f"/>
+           revision="5173ab43ce53cc9698d76de2357b4e132eb5d994"/>
 </manifest>
